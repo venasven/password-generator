@@ -41,4 +41,12 @@ function generatePassword() {
     lowerCasedCharas = confirm('Would you like to include lowercase letters?');
     upperCasedCharas = confirm('Would you like to include uppercase letters?');
   }
+
+  // for loop to generate password
+for (let i = 0; i < passwordCharas; i++) {
+  let index = Math.floor(Math.random() * newPassword.length);
+  password += newPassword[index];
+}
+
+  return password;
 }
