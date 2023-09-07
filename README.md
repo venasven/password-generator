@@ -12,8 +12,7 @@ This generator includes responsive prompts for each parameter selection while st
 
 ## Deployed Application
 
-
-
+https://venasven.github.io/password-generator/
 
 ## Credits
 Sought help from the Xpert Learning Assistant as needed during work
